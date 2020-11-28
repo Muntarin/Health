@@ -1,0 +1,59 @@
+
+
+.navbar{
+  box-shadow: 2px 2px 5px  #3292a6;
+  background: #fff;
+  opacity: 0.9;
+}
+.nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+.nav-item:last-child{
+    
+    padding-right: 0;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #252525; ;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: red;
+}
+#home-section{
+    position: relative;
+    min-height: 600px;
+    margin-top: 80px;
+}
+ .primary-overlay{
+    background: rgba(245, 248, 248, 0.7) ;
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#subscribe{
+    background: #252525;
+}
+
+#team-section img{
+    
+        margin-top: -55px;
+    
+}
+#team-section .card:hover{
+    background: #3292a6;
+    
+}
+#team-section .card:hover .fa{
+    color:black;
+}
+#team-section .fa{
+    font-size: 20spx;
+}
+@media(max-width:576px){
+        h3{
+            font-size:2rem;
+        }
+}
